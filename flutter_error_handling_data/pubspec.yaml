@@ -1,0 +1,28 @@
+name: flutter_error_handling_data
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.15.0 <3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  dio:
+  flutter_error_handling_core:
+    path: ../flutter_error_handling_core
+  freezed_annotation:
+  get_it:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  build_runner:
+  flutter_lints:
+  freezed:
+
+flutter:
+  uses-material-design: true
